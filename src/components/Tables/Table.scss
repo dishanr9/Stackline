@@ -1,0 +1,49 @@
+.product-sales-table table > tbody > tr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.product-sales-table table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+
+  .table-header {
+    padding: 0.5em;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    border: 1px solid #dbd4d4ee;
+  }
+
+  td {
+    padding: 0.5em;
+  }
+
+  img {
+    margin-left: 0.5rem;
+    width: 1rem;
+  }
+}
+
+thead th {
+  background-color: #efeeee;
+}
+thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+}
+
+thead button.ascending::after {
+  content: "👇";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+thead button.descending::after {
+  content: "☝️";
+  display: inline-block;
+  margin-left: 1em;
+}

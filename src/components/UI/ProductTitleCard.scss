@@ -1,0 +1,53 @@
+.product-title-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  gap: 1em;
+
+  > div {
+    // height: 2.5em;
+    // border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Century Gothic";
+    flex-wrap: wrap;
+    gap: 0.4em;
+  }
+
+  img {
+    width: 11em;
+  }
+
+  .product-name {
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  .product-description {
+    font-weight: lighter;
+    font-size: small;
+    color: #b7bdc9;
+    padding:0em 6em;
+    margin-top: -0.5em;
+    
+  }
+
+  .product-tags-container {
+    // flex-basis: 15%;
+    // margin-top: 2em;
+    padding:1em 1.3em;
+    border: 1px #d3cece54;
+    border-style: solid none;
+
+    .divider{
+        width:2px;
+        height:2px;
+        color:#c2c9d7;
+    }
+    // > div{
+    //     margin:2px;
+    // }
+  }
+}
